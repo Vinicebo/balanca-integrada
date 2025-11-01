@@ -1,0 +1,2 @@
+- Precisa baixar o best.pt no drive
+- Precisa colocar a porta certa e fechar o arduino IDE depois de já ter mandado o código pro arduino
