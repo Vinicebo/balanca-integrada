@@ -1,0 +1,16 @@
+# Ambiente Virtual
+/venv
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+
+# Arquivos de IDE (VSCode)
+.vscode/
+
+# Arquivos de Modelo de IA (são muito grandes!)
+*.pt
+*.weights
+
+# Arquivos do Sistema
+.DS_Store
