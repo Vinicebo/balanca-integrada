@@ -7,7 +7,7 @@ import os
 # --- 1. CONFIGURAÇÕES ---
 
 # Caminho para o seu modelo treinado (baixe o 'best.pt' do seu Drive)
-MODEL_PATH = "C:/Users/USER/Desktop/Ibmec/balanca_selfcheckout/best.pt"
+MODEL_PATH = "C:/Users/Pedro dos Santos/Documents/GitHub/balanca-integrada/best.pt"
 
 # Descubra esta porta na sua Arduino IDE (em Ferramentas > Porta)
 # Pode ser 'COM3' no Windows, ou '/dev/tty.usbmodem...' no Mac/Linux
@@ -78,7 +78,7 @@ while True:
 
     # --- PROCESSAMENTO DA IA ---
     # Roda a detecção. 'verbose=False' desliga os logs de print
-    results = model(frame, conf=0.5, verbose=False)
+    results = model(frame, conf=0.7, verbose=False)
 
     nome_item = "Nenhum item"
     preco_total = 0.0
