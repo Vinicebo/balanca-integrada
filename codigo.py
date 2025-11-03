@@ -18,7 +18,7 @@ PORTA_ARDUINO = "COM3"
 PRECOS_POR_KG = {
     "banana": 5.99,
     "apple": 8.99,
-    "orange": 4.50,
+    "orange": 10.0,
     "gepa_bio_und_fair_fencheltee": 20.00, # Exemplo do seu dataset D2S
     # ... adicione as outras 56 classes ...
 }
