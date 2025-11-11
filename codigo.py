@@ -10,7 +10,7 @@ import os
 MODEL_PATH = "C:/Users/vinic/OneDrive/Documentos/GitHub/balanca-integrada/best.pt"
 
 # Porta serial do seu Arduino
-PORTA_ARDUINO = "COM6"
+PORTA_ARDUINO = "COM5"
 
 # Dicionário de preços (exemplo)
 PRECOS_POR_KG = {
@@ -25,7 +25,7 @@ PRECOS_POR_KG = {
 # Quantos SEGUNDOS consecutivos a IA precisa acertar
 # para que a detecção seja considerada "fixa"?
 STABILITY_DURATION_SEC = 0.8 # Em segundos (ex: 0.8 segundos de detecção contínua)
-CONFIDENCE_THRESHOLD = 0.6   # Limiar de confiança que você já estava usando
+CONFIDENCE_THRESHOLD = 0.7   # Limiar de confiança que você já estava usando
 # --- FIM DA MUDANÇA ---
 
 
